@@ -9,7 +9,7 @@ function App() {
       className="w-full min-h-screen flex items-center justify-center p-4"
       style={{ backgroundColor: color }}
     >
-      <div className="bg-white p-4 sm:p-6 md:p-8 rounded-2xl shadow-lg flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 max-w-3xl">
+      <div className="bg-white p-4 sm:p-6 md:p-8 rounded-2xl shadow-lg flex flex-wrap lg:flex-nowrap justify-center gap-2 sm:gap-3 md:gap-4 w-fit max-w-full">
         
         <button
           onClick={() => setColor("red")}
